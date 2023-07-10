@@ -61,4 +61,42 @@
   font-size: 10vw;
   columns: #333;
   line-height: 100vh;
+
+}
+
+.projects{
+  display: flex;
+  flex-direction:column;
+  gap:30vh;
+  padding: 0px 100px;
+}
+
+.projectsTitle{
+  font-size: 10vw;
+  color: #333;
+}
+
+.project{
+  display: flex;
+  align-items: center;
+  gap:100px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.phone{
+  width: 300px;
+  height: 600px;
+  background-color: aqua;
+  position: relative;
+}
+
+.phoneScreen{
+  width: 264px;
+  height: 567px;
+  background-color: blue;
+  position: absolute;
+  top: 7px;
+  left: 18px;
+
 }
