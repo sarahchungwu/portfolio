@@ -96,7 +96,8 @@
   height: 567px;
   background-color: blue;
   position: absolute;
-  top: 7px;
+  top: 17px;
   left: 18px;
+  border-radius: 28px;
 
 }
