@@ -139,6 +139,8 @@
   color: #555;
   cursor: pointer;
   position: relative;
+  overflow: hidden;
+  font-size: 16px;
 }
 
 .projectButton::after {
@@ -147,6 +149,15 @@
   height: 100%;
   position: absolute;
   top: 0;
-  left: 0;
-  background-color: aqua;
+  background-color: #555;
+  left: -100%;
+  transition:1.2s all;
+  color:#222;
+  font-size: 16px;
+  padding-top: 10px;
+
+}
+
+.projectButton:hover.projectButton::after{
+  transform: translateX(100%);
 }
