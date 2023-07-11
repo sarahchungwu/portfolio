@@ -1,6 +1,8 @@
 console.log('its work!!')
 
 const boxContainer = document.querySelector('.boxContainer')
+const saluteTextContainer = document.querySelector('.saluteTextContainer')
+const saluteImgContainer = document.querySelector('.saluteImgContainer')
 
 for (let i = 0; i < 365; i++) {
   const list = [
@@ -23,3 +25,13 @@ for (let i = 0; i < 365; i++) {
   el.classList = list.includes(i) ? 'box active' : 'box'
   boxContainer.appendChild(el)
 }
+
+// create the animation for the webpage
+window.addEventListener('scroll', () => {
+  // console.log(window.scrollY)
+  let offsetY = window.scrollY
+  saluteTextContainer.style.transform = `translateY(${offsetY * 0.1}px`
+  saluteImgContainer.style.transform = `translate(${offsetY * 0.4}px,${
+    offsetY * 0.7
+  }px`
+})
