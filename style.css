@@ -212,6 +212,8 @@
   padding: 10px;
   color:#555;
   font-size: 12px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .boxContainer{
