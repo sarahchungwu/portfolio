@@ -206,6 +206,7 @@
 
 .githubChart{
   width:820px;
+  text-align: center;
 }
 .dates {
   padding: 10px;
@@ -224,8 +225,17 @@
   background-color: #171c25;
   border-radius: 2px;
   cursor: pointer;
+  transition: 3s all ease;
 }
 
 .active:nth-child(4n){
   background-color: #194b2c;
+}
+
+.githubChart:hover .active:nth-child(2n+1){
+  background-color: #194b2c;
+}
+
+.githubChart:hover .active:nth-child(2n){
+  background-color: #063f24;
 }
