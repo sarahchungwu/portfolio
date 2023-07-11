@@ -6,6 +6,7 @@
 
 .container{
   background-color: #111;
+  overflow: hidden;
 }
 
 .salute{
@@ -240,4 +241,77 @@
 
 .githubChart:hover .active:nth-child(2n){
   background-color: #063f24;
+}
+
+/* githubSm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color:#555;
+  font-size: 20px;
+  text-align: center;
+} */
+.githubSm {
+  text-align: center;
+}
+
+.githubSm a {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.githubSm img {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+}
+
+.githubSm h2 {
+  font-size: 18px; /* Adjust the font size as needed */
+  color: #333; /* Adjust the color as needed */
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1024px) {
+
+  .projects{
+    padding: 0 30px;
+    text-align: center;
+  }
+
+  .project{
+    flex-direction: column;
+    height: max-content;
+  }
+  .project:nth-child(2n){
+    flex-direction: column;
+  }
+
+  .phone,.laptop{
+    transform: none !important;
+  }
+  
+  .githubChart{
+    display: none;
+  }
+
+  .githubTitle{
+    text-align: center;
+    font-size: 10vw;
+  }
+
+  .githubSm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color:#555;
+    font-size: 30px;
+    text-align: center;
+  }
 }
