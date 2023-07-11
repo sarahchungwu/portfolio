@@ -204,7 +204,7 @@
   color: #333;
 }
 
-githubChart{
+.githubChart{
   width:820px;
 }
 .dates {
@@ -213,6 +213,11 @@ githubChart{
   font-size: 12px;
 }
 
+.boxContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
 .box{
   width: 15px;
   height: 15px;
