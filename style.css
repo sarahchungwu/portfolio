@@ -225,3 +225,7 @@
   border-radius: 2px;
   cursor: pointer;
 }
+
+.active:nth-child(4n){
+  background-color: #194b2c;
+}
