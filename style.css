@@ -161,3 +161,28 @@
 .projectButton:hover.projectButton::after{
   transform: translateX(100%);
 }
+
+.labtop{
+  width: 600px;
+  height: 379px;
+  flex: 1;
+  position: relative;
+}
+
+.labtopScreen{
+  width: 451px;
+  height: 290px;
+  position: absolute;
+  top: 18px;
+  left: 68px;
+  overflow: scroll;
+
+}
+
+.labtopScreen::-webkit-scrollbar{
+  display: none;
+}
+.labtopApp{
+  width: 100%;
+
+}
