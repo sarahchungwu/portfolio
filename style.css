@@ -4,11 +4,16 @@
   font-family: 'Gochi Hand', cursive;
 }
 
-.container{
+/* .container{
   background-color: #111;
   overflow: hidden;
+} */
+.container {
+  background-image: url("./img/bgPink.png");
+  background-size: cover; /* Adjust the background size as needed */
+  background-position: center; /* Adjust the background position as needed */
+  overflow: hidden;
 }
-
 .salute{
   height: 100vh;
   display: flex;
@@ -28,19 +33,19 @@
   width: 100%;
 }
 .saluteText{
-  color:#333;
+  color:#c98fc6;
   font-size: 63vw;
   cursor: default;
 }
 
 .nameContainer{
   height: 100vh;
-  background-color: rebeccapurple;
+  /* background-color: #ddbfc7; */
 }
 
 .name{
   font-size: 20vw;
-  color:#333;
+  color:#c98fc6;
   text-align: center;
   line-height: 100vh;
 }
@@ -53,14 +58,14 @@
 
 }
 .purple{
-  background: rebeccapurple url('./img/bg2.png');
+  background: url('./img/bg2.png');
 
 }
 
 
 .jobTitle{
   font-size: 10vw;
-  color: #333;
+  color: #c98fc6;
   line-height: 100vh;
 
 }
@@ -74,7 +79,7 @@
 
 .projectsTitle{
   font-size: 10vw;
-  color: #333;
+  color: #c98fc6;
 }
 
 .project{
@@ -127,12 +132,12 @@
 
 .projectTitle{
   font-size: 8vh;
-  color:#555;
+  color:#c98fc6;
 }
 
 .projectDesc{
   font-size: 20px;
-  color: #555;
+  color: #c98fc6;
   text-align: justify;
   line-height: 40px;
 }
@@ -141,8 +146,8 @@
   text-decoration: none;
   padding: 10px 20px;
   background-color:transparent;
-  border: 2px solid #555;
-  color: #555;
+  border: 2px solid #c98fc6;
+  color: #c98fc6;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -155,10 +160,10 @@
   height: 100%;
   position: absolute;
   top: 0;
-  background-color: #555;
+  background-color: #e4b5cb;
   left: -100%;
   transition:1.2s all;
-  color:#222;
+  color:#f2f0e4;
   font-size: 16px;
   padding-top: 10px;
 
@@ -203,7 +208,7 @@
 
 .githubTitle{
   font-size: 100px;
-  color: #333;
+  color: #c98fc6;
 }
 
 .githubChart{
@@ -212,7 +217,7 @@
 }
 .dates {
   padding: 10px;
-  color:#555;
+  color:#c98fc6;
   font-size: 12px;
   display: flex;
   justify-content: space-between;
@@ -226,22 +231,22 @@
 .box{
   width: 15px;
   height: 15px;
-  background-color: #171c25;
+  background-color: #edd9f0;
   border-radius: 2px;
   cursor: pointer;
   transition: 3s all ease;
 }
 
 .active:nth-child(4n){
-  background-color: #194b2c;
+  background-color: #FFD6A5;
 }
 
 .githubChart:hover .active:nth-child(2n+1){
-  background-color: #194b2c;
+  background-color: #FF9B9B;
 }
 
 .githubChart:hover .active:nth-child(2n){
-  background-color: #063f24;
+  background-color: #FFFEC4;
 }
 
 
@@ -261,7 +266,7 @@
 
 .githubSm h2 {
   font-size: 18px; /* Adjust the font size as needed */
-  color: #333; /* Adjust the color as needed */
+  color: #c98fc6; /* Adjust the color as needed */
 }
 
 
