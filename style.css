@@ -243,15 +243,7 @@
   background-color: #063f24;
 }
 
-/* githubSm{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  color:#555;
-  font-size: 20px;
-  text-align: center;
-} */
+
 .githubSm {
   text-align: center;
 }
