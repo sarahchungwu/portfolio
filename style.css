@@ -264,13 +264,13 @@
 
 .githubSm img {
   margin: 20px;
-  width: 80px; /* Adjust the width as needed */
-  height: 80px; /* Adjust the height as needed */
+  width: 80px; 
+  height: 80px; 
 }
 
 .githubSm h2 {
-  font-size: 30px; /* Adjust the font size as needed */
-  color: #c98fc6; /* Adjust the color as needed */
+  font-size: 30px;
+  color: #c98fc6; 
 }
 
 
@@ -294,6 +294,12 @@
     flex-direction: column;
   }
 
+  .projectTitle{
+    font-size: 40px;
+  }
+  .projectDetail{
+    width: 300px;
+  }
   .phone,.laptop{
     transform: none !important;
   }
@@ -316,4 +322,21 @@
     font-size: 30px;
     text-align: center;
   }
+ 
+  .githubSm a {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .githubSm img {
+    margin: 10px;
+    width: 50px; 
+    height: 50px; 
+  }
+  
+  .githubSm h2 {
+    font-size: 20px;
+    color: #c98fc6; 
+  }
+  
 }
