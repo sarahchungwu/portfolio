@@ -274,7 +274,25 @@
 }
 
 
+.cv a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #c98fc6;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  font-size: 30px;
+  margin-top: 50px;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
 
+.cv a:hover {
+  transform: scale(1.1);
+  background-color: #3a3737;
+  border-radius: 5px;
+  color: white;
+}
 
 
 
@@ -326,6 +344,7 @@
   .githubSm a {
     display: inline-block;
     margin-bottom: 10px;
+    font-size: 16px;
   }
   
   .githubSm img {
