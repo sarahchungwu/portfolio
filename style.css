@@ -252,6 +252,8 @@
 
 
 .githubSm {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -261,12 +263,13 @@
 }
 
 .githubSm img {
-  width: 50px; /* Adjust the width as needed */
-  height: 50px; /* Adjust the height as needed */
+  margin: 20px;
+  width: 80px; /* Adjust the width as needed */
+  height: 80px; /* Adjust the height as needed */
 }
 
 .githubSm h2 {
-  font-size: 18px; /* Adjust the font size as needed */
+  font-size: 30px; /* Adjust the font size as needed */
   color: #c98fc6; /* Adjust the color as needed */
 }
 
