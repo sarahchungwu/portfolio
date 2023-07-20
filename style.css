@@ -247,6 +247,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  padding-top: 200px;
 }
 
 .githubTitle{
@@ -297,6 +298,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding-top: 40px;
 }
 
 .githubSm a {
@@ -336,6 +338,11 @@
   color: white;
 }
 
+.aboutMe-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .aboutMe{
   margin-top: 220px;
@@ -345,6 +352,7 @@
   gap:50px;
   align-items: center;
   width: 50%;
+  margin-bottom: 100px;
 }
 
 .aboutMetTitle{
@@ -391,7 +399,8 @@
 
   .githubTitle{
     text-align: center;
-    font-size: 10vw;
+    font-size: 30px;
+    margin-bottom:50px ;
   }
 
   .githubSm{
@@ -430,6 +439,28 @@
     border-bottom: 2px solid rgb(169, 113, 122);
     padding: 10px;
   
+  }
+  .aboutMe{
+    margin-top: 20px;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+  }
+  
+  .aboutMetTitle{
+    font-size: 40px;
+    color:#2A2F4F;
+    
+  }
+  
+  .paboutMeDesc{
+    font-size: 25px;
+    color: #2A2F4F;;
+    text-align: justify;
+    line-height: 40px;
+    
   }
   
 }
