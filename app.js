@@ -40,7 +40,7 @@ window.addEventListener('scroll', () => {
   saluteImgContainer.style.transform = `translate(${offsetY * 0.4}px,${
     offsetY * 0.7
   }px`
-  authorName.style.transform = `translateX(${offsetY * 0.2}px`
+  authorName.style.transform = `translateY(${offsetY * 0.1}px`
   jobTitleContainers[0].style.backgroundPositionY = `${offsetY * 0.5}px`
   jobTitles[0].style.transform = `translateX(calc(200vh - ${offsetY}px))`
   jobTitles[1].style.transform = `translateX(calc(-300vh + ${offsetY}px))`

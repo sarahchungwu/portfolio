@@ -1,8 +1,8 @@
 *{
   padding:0;
   margin:0;
-  font-family: 'Poiret One', cursive;
-  color: #c98fc6;;
+  font-family: 'Urbanist', sans-serif;
+  color: #2A2F4F;;
 
 }
 .container {
@@ -21,8 +21,8 @@ header nav ul {
   text-decoration: none;
   padding: 5px 20px;
   background-color:transparent;
-  border: 2px solid #c98fc6;
-  color: #c98fc6;
+  border: 2px solid #2A2F4F;
+  color: #2A2F4F;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -38,7 +38,7 @@ header nav ul li {
 header nav ul li a {
 
   padding: 10px 20px;
-  color: #c98fc6;
+  color: #2A2F4F;
   text-decoration: none;
 
   border-radius: 5px;
@@ -50,7 +50,7 @@ main {
 }
 
 h1 {
-  color: #c98fc6;
+  color: #2A2F4F;
   font-size: 50px;
   text-align: center;
   margin-bottom: 20px;
@@ -89,7 +89,7 @@ font-size: 30px;
   margin-right: 10px;
   margin-bottom: 20px;
   background-color: #c98fc6;
-  color: #fff;
+  color: #2A2F4F;
   padding: 5px 10px;
   border-radius: 5px;
 }
@@ -98,6 +98,7 @@ font-size: 30px;
 
 
 .project-challenges-cotainer{
+  padding:40px;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -127,6 +128,9 @@ font-size: 22px;
 
 .project-challenges h2 {
   text-align: center;
+  font-size:30px;
+  padding-bottom: 10px;
+  color:#c98fc6;
 }
 .githubSm{
   display: flex;
@@ -151,7 +155,7 @@ text-decoration: none;
 }
 .githubSm h2{
   font-size: 18px; /* Adjust the font size as needed */
-  color: #c98fc6; 
+  color: #2A2F4F; 
  
 }
 

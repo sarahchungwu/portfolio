@@ -1,7 +1,8 @@
 *{
   padding:0;
   margin:0;
-  font-family: 'Gochi Hand', cursive;
+  /* font-family: 'Gochi Hand', cursive; */
+  font-family: 'Urbanist', sans-serif;
 
 }
 
@@ -15,6 +16,47 @@
   background-position: center; /* Adjust the background position as needed */
   overflow: hidden;
 }
+
+.navbar {
+
+  align-items: center;
+
+  padding: 5px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 25px;
+  gap: 20px;
+  border-bottom: 2px solid rgb(169, 113, 122);
+  padding: 10px;
+
+}
+
+
+.nav-links li a {
+  padding-left: 20;
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-details {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.contact-info {
+  font-size: 14px;
+}
+
 .salute{
   height: 100vh;
   display: flex;
@@ -34,7 +76,7 @@
   width: 100%;
 }
 .saluteText{
-  color:#c98fc6;
+  color:#2A2F4F;
   font-size: 63vw;
   cursor: default;
 }
@@ -46,7 +88,7 @@
 
 .name{
   font-size: 20vw;
-  color:#c98fc6;
+  color:#2A2F4F;;
   text-align: center;
   line-height: 100vh;
 }
@@ -66,7 +108,7 @@
 
 .jobTitle{
   font-size: 10vw;
-  color: #c98fc6;
+  color: #2A2F4F;;
   line-height: 100vh;
 
 }
@@ -80,7 +122,7 @@
 
 .projectsTitle{
   font-size: 10vw;
-  color: #c98fc6;
+  color: #2A2F4F;
 }
 
 .project{
@@ -133,12 +175,12 @@
 
 .projectTitle{
   font-size: 8vh;
-  color:#c98fc6;
+  color:#2A2F4F;;
 }
 
 .projectDesc{
   font-size: 23px;
-  color: #c98fc6;
+  color: #2A2F4F;;
   text-align: justify;
   line-height: 40px;
 }
@@ -147,8 +189,8 @@
   text-decoration: none;
   padding: 10px 20px;
   background-color:transparent;
-  border: 2px solid #c98fc6;
-  color: #c98fc6;
+  border: 2px solid #2A2F4F;;
+  color: #2A2F4F;;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -164,7 +206,7 @@
   background-color: #e4b5cb;
   left: -100%;
   transition:1.2s all;
-  color:#f2f0e4;
+  color:#2A2F4F;
   font-size: 16px;
   padding-top: 10px;
 
@@ -209,7 +251,7 @@
 
 .githubTitle{
   font-size: 100px;
-  color: #c98fc6;
+  color: #2A2F4F;
 }
 
 .githubChart{
@@ -218,7 +260,7 @@
 }
 .dates {
   padding: 10px;
-  color:#c98fc6;
+  color:#2A2F4F;
   font-size: 12px;
   display: flex;
   justify-content: space-between;
@@ -270,7 +312,7 @@
 
 .githubSm h2 {
   font-size: 30px;
-  color: #c98fc6; 
+  color: #2A2F4F; 
 }
 
 
@@ -278,7 +320,7 @@
   text-decoration: none;
   padding: 10px 20px;
   background-color: transparent;
-  color: #c98fc6;
+  color: #2B2730;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -289,7 +331,7 @@
 
 .cv a:hover {
   transform: scale(1.1);
-  background-color: #3a3737;
+  background-color: #2A2F4F;
   border-radius: 5px;
   color: white;
 }
@@ -355,7 +397,7 @@
   
   .githubSm h2 {
     font-size: 20px;
-    color: #c98fc6; 
+    color: #2B2730;
   }
   
 }
