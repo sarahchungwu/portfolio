@@ -311,7 +311,7 @@
 }
 
 .githubSm h2 {
-  font-size: 30px;
+  font-size: 40px;
   color: #2A2F4F; 
 }
 
@@ -337,7 +337,28 @@
 }
 
 
+.aboutMe{
+  margin-top: 220px;
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+  align-items: center;
+  width: 50%;
+}
 
+.aboutMetTitle{
+  font-size: 40px;
+  color:#2A2F4F;
+}
+
+.paboutMeDesc{
+  font-size: 25px;
+  color: #2A2F4F;;
+  text-align: justify;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
 
 @media screen and (max-width:1024px) {
 
