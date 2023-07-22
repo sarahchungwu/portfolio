@@ -177,7 +177,7 @@
 }
 
 .projectDesc{
-  font-size: 23px;
+  font-size: 27px;
   color: #2A2F4F;;
   text-align: justify;
   line-height: 40px;
@@ -368,10 +368,14 @@
 
 
 @media screen and (max-width:1024px) {
-
+  .nameContainer{
+    height: 80vh;
+    /* background-color: #ddbfc7; */
+  }
   .projects{
     padding: 0 30px;
     text-align: center;
+    gap: 30px;
   }
 
   .project{
@@ -390,11 +394,12 @@
   }
 
   .projectDesc{
-    font-size: 18px;
+    font-size: 24px;
   }
-  .phone,.laptop{
+  .phone,.labtop{
     transform: none !important;
   }
+ 
   
 
   .githubChart{
@@ -410,7 +415,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
     color:#555;
     font-size: 30px;
     text-align: center;
@@ -464,6 +468,12 @@
     text-align: justify;
     line-height: 40px;
     
+   
   }
+  .container {
+  
+    overflow: auto; 
+  }
+
   
 }
