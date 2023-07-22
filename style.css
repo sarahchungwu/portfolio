@@ -375,12 +375,13 @@
   .projects{
     padding: 0 30px;
     text-align: center;
-    gap: 30px;
+  
   }
 
   .project{
     flex-direction: column;
     height: max-content;
+  
   }
   .project:nth-child(2n){
     flex-direction: column;
