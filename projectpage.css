@@ -13,21 +13,19 @@
 }
 
 header {
- font-size:30px ;
-  padding: 10px;
+ font-size:25px ;
+  padding: 5px;
 }
 
 header nav ul {
-  text-decoration: none;
-  padding: 5px 20px;
-  background-color:transparent;
-  border: 2px solid #2A2F4F;
-  color: #2A2F4F;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  font-size: 30px;
-  text-align: center;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 25px;
+  gap: 20px;
+  border-bottom: 2px solid rgb(169, 113, 122);
+  padding: 10px;
 }
 
 header nav ul li {
