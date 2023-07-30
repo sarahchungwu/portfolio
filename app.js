@@ -44,7 +44,7 @@ window.addEventListener('scroll', () => {
   authorName.style.transition = 'transform 2s ease'
   jobTitleContainers[0].style.backgroundPositionY = `${offsetY * 0.5}px`
   jobTitles[0].style.transform = `translateX(calc(200vh - ${offsetY}px))`
-  jobTitles[1].style.transform = `translateX(calc(-200vh + ${offsetY}px))`
+  jobTitles[1].style.transform = `translateX(calc(-300vh + ${offsetY}px))`
   projectsTitle.style.transform = `translateY(calc(400vh - ${offsetY}px))`
 
   phones[0].style.transform = `translateX(calc(490vh - ${offsetY}px))`
@@ -53,6 +53,6 @@ window.addEventListener('scroll', () => {
   laptop.style.transform = `translateX(calc(620vh - ${offsetY}px))`
   laptop.style.transition = 'transform 2s ease'
 
-  phones[1].style.transform = `translateX(calc(780vh - ${offsetY}px))`
+  phones[1].style.transform = `translateX(calc(760vh - ${offsetY}px))`
   phones[1].style.transition = 'transform 2s ease'
 })
