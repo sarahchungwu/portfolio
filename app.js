@@ -47,12 +47,12 @@ window.addEventListener('scroll', () => {
   jobTitles[1].style.transform = `translateX(calc(-200vh + ${offsetY}px))`
   projectsTitle.style.transform = `translateY(calc(400vh - ${offsetY}px))`
 
-  phones[0].style.transform = `translateX(calc(450vh - ${offsetY}px))`
+  phones[0].style.transform = `translateX(calc(490vh - ${offsetY}px))`
   phones[0].style.transition = 'transform 2s ease'
 
-  laptop.style.transform = `translateX(calc(580vh - ${offsetY}px))`
+  laptop.style.transform = `translateX(calc(620vh - ${offsetY}px))`
   laptop.style.transition = 'transform 2s ease'
 
-  phones[1].style.transform = `translateX(calc(730vh - ${offsetY}px))`
+  phones[1].style.transform = `translateX(calc(780vh - ${offsetY}px))`
   phones[1].style.transition = 'transform 2s ease'
 })
