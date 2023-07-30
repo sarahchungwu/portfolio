@@ -301,7 +301,8 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 60px;
+  margin-bottom: 50px;
 }
 
 .githubSm a {
@@ -311,12 +312,12 @@
 
 .githubSm img {
   margin: 20px;
-  width: 80px; 
-  height: 80px; 
+  width: 60px; 
+  height: 60px; 
 }
 
 .githubSm h2 {
-  font-size: 40px;
+  font-size: 20px;
   color: #2A2F4F; 
 }
 
@@ -341,36 +342,7 @@
   color: white;
 }
 
-.aboutMe-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-.aboutMe{
-  margin-top: 100px;
-  flex:1;
-  display: flex;
-  flex-direction: column;
-  gap:50px;
-  align-items: center;
-  width: 50%;
-  margin-bottom: 100px;
-}
-
-.aboutMetTitle{
-  font-size: 40px;
-  color:#2A2F4F;
-}
-
-.aboutMeDesc{
-  font-size: 25px;
-  color: #2A2F4F;;
-  text-align: justify;
-  line-height: 40px;
-  letter-spacing: 1px;
-
-}
 
 
 @media screen and (max-width:1024px) {
@@ -415,8 +387,10 @@
 
   .githubTitle{
     text-align: center;
-    font-size: 20px;
-    margin-bottom: 10px;}
+    font-size: 40px;
+    margin-bottom: 10px;
+
+  }
 
   .githubSm{
     display: flex;
@@ -442,42 +416,23 @@
   .githubSm h2 {
     font-size: 20px;
     color: #2B2730;
+    padding: 5px;
   }
   .nav-links {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content:end;
-    font-size: 13px;
+    font-size: 10px;
     border-bottom: rgb(192, 127, 143);
    
   
 
   
   }
-  .aboutMe{
-    margin-top: 10px;
-    flex:1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 85%;
-  }
+ 
   
-  .aboutMetTitle{
-    font-size: 20px;
-    color:#2A2F4F;
-    
-  }
-  
-  .paboutMeDesc{
-    font-size: 18px;
-    color: #2A2F4F;;
-    text-align: justify;
-    line-height: 40px;
-    
-   
-  }
+
   .container {
   
     overflow: auto; 
