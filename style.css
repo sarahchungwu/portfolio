@@ -379,6 +379,7 @@
     transform: none !important;
   }
  
+ 
   
 
   .githubChart{
@@ -439,4 +440,27 @@
   }
 
   
+}
+
+@media (max-width: 390px) {
+  .labtop {
+    width: 380px;
+    height: 150px;
+  }
+  .labtop img { /* Corrected this line */
+    width: 380px;
+  }
+
+  .labtopScreen{
+    width: 280px;
+    height: 150px;
+    position: absolute;
+    top: 12px;
+    left: 44px;
+    overflow: scroll;
+  
+  .labtopScreen {
+    width: 200px; 
+  }
+}
 }
