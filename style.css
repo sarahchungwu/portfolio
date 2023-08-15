@@ -379,9 +379,6 @@
     transform: none !important;
   }
  
- 
-  
-
   .githubChart{
     display: none;
   }
@@ -425,10 +422,7 @@
     flex-direction: row;
     justify-content:end;
     font-size: 10px;
-    border-bottom: rgb(192, 127, 143);
-   
-  
-
+    border-bottom: rgb(192, 127, 143); 
   
   }
  

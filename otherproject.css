@@ -1,0 +1,254 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: 'Urbanist', sans-serif;
+  color: #2A2F4F;;
+
+}
+.container {
+  background-image: url("./img/bgPink.png");
+  background-size: cover; 
+  background-position: center;
+  min-height: 100vh;
+}
+
+header {
+ font-size:25px ;
+  padding: 5px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 25px;
+  gap: 20px;
+  border-bottom: 2px solid rgb(169, 113, 122);
+  padding: 10px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header nav ul li a {
+
+  padding: 10px 20px;
+  color: #2A2F4F;
+  text-decoration: none;
+
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  color: #2A2F4F;
+  text-align: center;
+}
+
+p {
+  color: #555;
+  line-height: 1.5;
+}
+
+.overview {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+
+}
+
+.overview h1 {
+
+  width: 50%;
+  font-size: 50px;
+  
+  
+}
+
+.project-container{
+  padding:40px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.project-details {
+  background-color: rgba(242, 242, 242, 0.4); 
+  padding: 20px; 
+  width: 70%;
+  margin: 20px auto; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+}
+
+.projectTitle {
+  font-size: 1.6rem;
+  margin-top: 10px;
+  text-align: center; 
+}
+
+.imgDiv {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.imgDiv img {
+  width: 60%; 
+  border-radius: 5px; 
+}
+
+.dis-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dis-container p {
+  margin-top: 5px;
+  font-size: 16px;
+  width: 60%; 
+}
+
+
+
+
+.linkedInSm{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color:#555;
+  font-size: 20px;
+  text-align: center;
+}
+.linkedInSm img{
+  width: 50px;
+  transition: transform 0.3s;
+}
+
+.linkedInSm img:hover {
+  transform: scale(1.1); 
+}
+.linkedInSm a{
+text-decoration: none;
+ 
+}
+
+
+.projectButton{
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color:transparent;
+  border: 2px solid #2A2F4F;;
+  color: #2A2F4F;;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+.projectButton::after {
+  content:'View Demo';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #e4b5cb;
+  left: -100%;
+  transition:1.2s all;
+  color:#2A2F4F;
+  font-size: 16px;
+  padding-top: 10px;
+
+}
+
+.projectButton:hover.projectButton::after{
+  transform: translateX(100%);
+}
+footer {
+  text-align: center;
+}
+
+@media screen and (max-width:1024px) {
+  
+  
+  
+  
+  
+  .about-me-container{
+    padding:5px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imgDiv img{
+    width: 50%;
+
+   }
+  .project-challenges {
+    background-color: rgba(242, 242, 242, 0.4);
+    padding: 2px;
+    width: 90%;
+    
+   
+  }
+
+  .project-challenges a {
+  
+   text-align: center;
+   text-decoration: none;
+    
+  }
+  
+  .dis-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dis-container p {
+  margin-top:10px ;
+  padding: 5px;
+
+  font-size: 20px;
+  height: auto;
+  text-align: center;
+  width: 100%;
+  
+    
+  }
+  
+  .project-challenges h2 {
+    text-align: center;
+    font-size:40px;
+    padding-top: 20px;
+    margin-bottom: 100px;
+    color:#c98fc6;
+  }
+  
+
+  .linkedInSm h2{
+    
+    font-size: 20px;
+  
+  }
+}
