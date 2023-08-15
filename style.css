@@ -23,9 +23,7 @@
   width: 100%;
   z-index: 999;
   align-items: center;
-  padding: 5px;
-  backdrop-filter: blur(10px);
-  
+
 }
 
 .nav-links {
@@ -38,6 +36,7 @@
   border-bottom: 2px solid rgb(169, 113, 122);
   padding: 10px;
   font-weight:bolder;
+  backdrop-filter: blur(10px);
 }
 
 

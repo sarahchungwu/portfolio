@@ -6,7 +6,7 @@
 
 }
 .container {
-  background-image: url("./img/bgPink.png");
+  background-image: url("../img/bgPink.png");
   background-size: cover; 
   background-position: center;
   min-height: 100vh;
@@ -17,15 +17,26 @@ header {
    padding: 5px;
  }
  
+ nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  align-items: center;
+ 
+  
+ }
  header nav ul {
    list-style: none;
    display: flex;
    flex-direction: row;
-   justify-content: center;
+   justify-content: end;
    font-size: 25px;
    gap: 20px;
    border-bottom: 2px solid rgb(169, 113, 122);
-   padding: 2px;
+   padding: 5px;
+   backdrop-filter: blur(10px);
  }
  header nav ul li {
    display: inline-block;
