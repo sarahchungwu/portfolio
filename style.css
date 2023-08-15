@@ -40,11 +40,25 @@
   font-weight:bolder;
 }
 
+
+
 .nav-links li a {
-  padding-left: 20px; /* Add a value for padding to the left */
+  padding-left: 20px; 
   color: #2A2F4F;
   text-decoration: none;
 }
+
+.nav-links li a:hover {
+  color: rgb(169, 113, 122); 
+  text-shadow: 1px 1px 2px rgba(64, 64, 64, 0.4);
+  transition: color 0.3s ease, text-shadow 0.3s ease; 
+}
+  
+
+
+
+
+
 .contact-details {
   display: flex;
   align-items: center;
