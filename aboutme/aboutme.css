@@ -6,7 +6,7 @@
 
 }
 .container {
-  background-image: url("./img/bgPink.png");
+  background-image: url("../img/bgPink.png");
   background-size: cover; /* Adjust the background size as needed */
   background-position: center; /* Adjust the background position as needed */
   min-height: 100vh;
