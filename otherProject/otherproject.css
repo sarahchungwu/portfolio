@@ -71,7 +71,9 @@ p {
   color: #555;
   line-height: 1.5;
 }
-
+a{
+  text-decoration: none;
+}
 .overview {
   margin-top: 50px;
   margin-bottom: 15px;
@@ -140,6 +142,11 @@ p {
   margin-bottom: 10px;
 }
 
+.fa-github{
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
 .dis-container h2{
   font-size:1.2rem;
   margin-bottom: 10px;
