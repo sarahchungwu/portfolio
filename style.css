@@ -384,7 +384,7 @@
     font-size: 25px;
   }
   .projectDetail{
-    width: 300px;
+    width: 80%;
   }
 
   .projectDesc{
@@ -493,7 +493,7 @@
 
   .labtopScreen{
     width: 284px;
-    height: 176px;
+    height: 182px;
     position: absolute;
     top: 12px;
     left: 44px;
@@ -501,7 +501,7 @@
   }  
 
   .labtopScreen img {
-    width: 318px; 
+    width: 305px; 
   }
   .githubTitle {
     font-size: 60px;
