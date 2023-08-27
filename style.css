@@ -359,6 +359,8 @@
 
 
 @media screen and (max-width:1024px) {
+
+  
   .nameContainer{
     height: 80vh;
     /* background-color: #ddbfc7; */
@@ -372,7 +374,7 @@
   .project{
     flex-direction: column;
     height: max-content;
-  
+
   }
   .project:nth-child(2n){
     flex-direction: column;
