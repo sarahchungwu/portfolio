@@ -360,17 +360,16 @@
 
 @media screen and (max-width:1024px) {
 
-  
   .nameContainer{
     height: 80vh;
-    /* background-color: #ddbfc7; */
+ 
   }
   .projects{
     padding: 0 30px;
     text-align: center;
   
   }
-
+ 
   .project{
     flex-direction: column;
     height: max-content;
@@ -393,16 +392,17 @@
   .phone,.labtop{
     transform: none !important;
   }
- 
+
   .githubChart{
     display: none;
   }
 
-  .githubTitle{
+  .githubTitle {
+    font-size: 100px;
+    line-height: 15vh;
+    padding: 43px;
     text-align: center;
-    font-size: 40px;
-    margin-bottom: 10px;
-
+  
   }
 
   .githubSm{
@@ -413,7 +413,7 @@
     font-size: 30px;
     text-align: center;
   }
- 
+
   .githubSm a {
     display: inline-block;
     margin-bottom: 10px;
@@ -440,16 +440,14 @@
     border-bottom: rgb(192, 127, 143); 
   
   }
- 
-  
 
-  .container {
-  
+.container {
     overflow: auto; 
   }
 
-  
 }
+
+
 
 @media (max-width: 440px) {
 
@@ -515,3 +513,4 @@
     padding: 18px;
   }
 }
+
