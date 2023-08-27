@@ -450,24 +450,65 @@
 }
 
 @media (max-width: 440px) {
+
+  .nav-links{
+    font-size: 14px;
+  }
+  .nav-links li a{
+    padding:3px;
+  }
+  .salute{
+    flex-direction: column;
+    height: 100vh;
+  }
+  .saluteTextContainer{
+    margin-top: 40px;
+  }
+  .saluteText{
+    font-size: 35vh;
+  }
+  .name{
+    font-size: 22vw;
+    /* line-height: 50vh; */
+  }
+  .jobTitle{
+    font-size: 20vw;
+    line-height: 70vh;
+  }
+  .projectsTitle{
+    font-size: 15vw;
+    padding-left: 20px;
+    text-align: start;
+  }
   .labtop {
     width: 380px;
     height: 150px;
   }
-  .labtop img { /* Corrected this line */
+  .labtop img { 
     width: 380px;
   }
 
   .labtopScreen{
-    width: 280px;
-    height: 150px;
+    width: 284px;
+    height: 176px;
     position: absolute;
     top: 12px;
     left: 44px;
     overflow: scroll;
-  
-  .labtopScreen {
-    width: 200px; 
+  }  
+
+  .labtopScreen img {
+    width: 318px; 
   }
-}
+  .githubTitle {
+    font-size: 60px;
+    line-height: 12vh;
+  
+  }
+  .githubSm h2 {
+    width: 80%;
+    font-size: 25px;
+    color: #2B2730;
+    padding: 18px;
+  }
 }
