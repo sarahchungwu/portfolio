@@ -1,5 +1,3 @@
-console.log('its work!!')
-
 const boxContainer = document.querySelector('.boxContainer')
 const saluteTextContainer = document.querySelector('.saluteTextContainer')
 const saluteImgContainer = document.querySelector('.saluteImgContainer')
